@@ -1,21 +1,34 @@
-#rectangle {
-  border-radius: 25px;
-  background: lightgray;
-  padding: 25px;
-  width: 450px;
-  height: 150px;
-	border:4px solid black;
- }
-
-  /* Add other styles for the red box here */
+.container{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	gap:10px;
+	width:200px;
+	height:100px;
+	border:2px solid black;
+	border-radius:20px;
+	background-color:#e4e4e7;
 }
 
-.green {
-  background-color: green;
-  /* Add other styles for the green box here */
+.green{
+	width:100px;
+	height:50px;
+	border-radius:50%;
+	background-color:green;
+	margin-left:20px;
 }
 
-.yellow {
-  background-color: yellow;
-  /* Add other styles for the yellow box here */
+.red{
+	width:100px;
+	height:50px;
+	border-radius:50%;
+	background-color:red;
+}
+
+.yellow{
+	width:100px;
+	height:50px;
+	border-radius:50%;
+	background-color:yellow;
+	margin-right:20px;
 }
